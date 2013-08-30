@@ -194,7 +194,7 @@ function _authorize_filetransfer_connection_settings_set_defaults(&$element, $ke
  * Form validation handler for authorize_filetransfer_form().
  *
  * @see authorize_filetransfer_form()
- * @see authorize_filetransfer_submit()
+ * @see authorize_filetransfer_submit() 
  */
 function authorize_filetransfer_form_validate($form, &$form_state) {
   // Only validate the form if we have collected all of the user input and are
